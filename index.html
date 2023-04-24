@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <title>Site Principal</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+    <script type="text/javascript" >
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            })
+        };
+    </script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo.png" />
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mmLine"></div>
+                        <div class="mmLine"></div>
+                        <div class="mmLine"></div>
+                    </div>
+
+                    <ul>
+                        <li class="active">
+                            <a href="#">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="#">PÁGINAS</a>
+                        </li>
+                        <li>
+                            <a href="#">DEPARTAMENTOS</a>
+                        </li>
+                        <li>
+                            <a href="#">CALENDÁRIO</a>
+                        </li>
+                        <li>
+                            <a href="#">GALERIA</a>
+                        </li>
+                        <li>
+                            <a href="#">CONTATO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Topo de linha</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Caso de emergência</div>
+                    <div class="banner_desc">
+                        Se você precisar de um médico com urgência fora do horário de funcionamento do medicenter, ligue para o número de consulta de emergência para atendimento de emergência.
+                    </div>
+                    <div class="banner_button">
+                        <a href="#">Ler mais</a>
+                    </div>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Horário dos médicos</div>
+                    <div class="banner_desc">
+                        Aqui no medicenter temos listas individuais de médicos. Clique no botão mais abaixo para ver os serviços e horários atuais para nossos médicos.
+                    </div>
+                    <div class="banner_button">
+                        <a href="#">Ler mais</a>
+                    </div>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horário de funcionamento</div>
+                    <div class="banner_desc">
+                        <div class="banner_hours">
+                            <div class="banner_hours1">
+                                Segunda - Sexta
+                            </div>
+                            <div class="banner_hours2">
+                                8:00 - 17:00
+                            </div>
+                        </div>
+                        <div class="banner_hours">
+                            <div class="banner_hours1">
+                                Sábado
+                            </div>
+                            <div class="banner_hours2">
+                                9:30 - 17:30
+                            </div>
+                        </div>
+                        <div class="banner_hours">
+                            <div class="banner_hours1">
+                                Domingo
+                            </div>
+                            <div class="banner_hours2">
+                                9:30 - 15:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Últimas Notícias</div>
+                        <div class="widget_title_divider"></div>
+                    </div>
+
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">23 JAN 22</div>
+                                    <div class="news_comments">3</div>
+                                </div>
+
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet nisl metus, non vehicula risus convallis nec. Praesent convallis consequat lorem, sit amet tempus est. Ut id enim vulputate, viverra. 
+                                </div>
+                            </a>
+                        </article>
+
+                        
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">23 JAN 22</div>
+                                    <div class="news_comments">3</div>
+                                </div>
+
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet nisl metus, non vehicula risus convallis nec. Praesent convallis consequat lorem, sit amet tempus est. Ut id enim vulputate, viverra. 
+                                </div>
+                            </a>
+                        </article>
+
+                        
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">23 JAN 22</div>
+                                    <div class="news_comments">3</div>
+                                </div>
+
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet nisl metus, non vehicula risus convallis nec. Praesent convallis consequat lorem, sit amet tempus est. Ut id enim vulputate, viverra. 
+                                </div>
+                            </a>
+                        </article>
+
+                        
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">23 JAN 22</div>
+                                    <div class="news_comments">3</div>
+                                </div>
+
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" />
+                                </div>
+
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amat velum
+                                </div>
+
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet nisl metus, non vehicula risus convallis nec. Praesent convallis consequat lorem, sit amet tempus est. Ut id enim vulputate, viverra. 
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departamentos</div>
+                        <div class="widget_title_divider"></div>
+                    </div>
+
+                    <div class="widget_body" id="departments">
+                        <div class="widget_department"></div>
+                        <div class="widget_department"></div>
+                        <div class="widget_department"></div>
+                        <div class="widget_department"></div>
+                        <div class="widget_department"></div>
+                        <div class="widget_department"></div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Agende um horário</div>
+                        <div class="widget_title_divider"></div>
+                    </div>
+
+                    <div class="widget_body">
+                        <div class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <br />
+                        <div class="widget_contato_separador"></div>
+                        
+                        <div class="widget_contato">
+                            <div class="widget_contato_icon">
+                                <img src="assets/icons/phone.png" />
+                            </div>
+                            <div class="widget_contato_texto">
+                                Pelo telefone: (61) 9 9999-9999
+                            </div>
+                        </div>
+                        
+                        <div class="widget_contato_separador"></div>
+                        
+
+                        <div class="widget_contato">
+                            <div class="widget_contato_icon">
+                                <img src="assets/icons/mail.png" />
+                            </div>
+                            <div class="widget_contato_texto">
+                                Pelo e-mail: email@email.com
+                            </div>
+                        </div>
+                        
+                        <div class="widget_contato_separador"></div>
+
+                        <div class="widget_contato">
+                            <div class="widget_contato_icon">
+                                <img src="assets/icons/enviar_lista.png" />
+                            </div>
+                            <div class="widget_contato_texto">
+                                Ou preencha um formulário em nosso site.
+                            </div>
+                        </div>
+                        
+                        <div class="widget_contato_separador"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <footer>
+        <div class="container flex-column">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="#">
+                        <h1>Plano de Saúde</h1>
+                        <div class="fm_texto flex">
+                            <div class="fm_texto_txt">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="fm_texto_img">
+                                <img src="assets/icons/arrow_right.png" />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="#">
+                        <h1>Registros Médicos</h1>
+                        <div class="fm_texto flex">
+                            <div class="fm_texto_txt">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="fm_texto_img">
+                                <img src="assets/icons/arrow_right.png" />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="#">
+                        <h1>Pagamento Online</h1>
+                        <div class="fm_texto flex">
+                            <div class="fm_texto_txt">
+                                Lorem ipsum dolor sit amet
+                            </div>
+                            <div class="fm_texto_img">
+                                <img src="assets/icons/arrow_right.png" />
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Clínica Medicenter</div>
+                            <div class="widget_title_divider"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_fcontato">
+                                <div class="widget_fcontato_1">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                </div>
+                                
+                                <div class="widget_fcontato_2">
+                                    <div class="widget_fcontato_address">
+                                        <div>Medicenter Clinic</div>
+                                        <div>33 Fariane Street</div>
+                                        <div>Kailor East</div>
+                                        <div>VIC 3033, Australia</div>
+                                    </div>
+                                    <div class="widget_fcontato_phone">
+                                        <div>(61) 9 9999-9999</div>
+                                        <div>(61) 9 9999-9999</div>
+                                        <div>email@contato.com</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="widget_fcontato_3">
+                                    <div><img src="assets/icons/fb.png" /></div>
+                                    <div><img src="assets/icons/insta.png" /></div>
+                                    <div><img src="assets/icons/tweeter.png" /></div>
+                                    <div><img src="assets/icons/mail.png" /></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Últimos Posts</div>
+                            <div class="widget_title_divider"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_post">
+                                <div class="widget_post_icon">
+                                    <img src="assets/icons/arrow_right.png" />
+                                </div>
+                                <div class="widget_post_content">
+                                    <div class="widget_post_texto">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                    </div>
+                                    <div class="widget_post_date">
+                                        6 years ago
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="widget_post">
+                                <div class="widget_post_icon">
+                                    <img src="assets/icons/arrow_right.png" />
+                                </div>
+                                <div class="widget_post_content">
+                                    <div class="widget_post_texto">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                    </div>
+                                    <div class="widget_post_date">
+                                        6 years ago
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="widget_post">
+                                <div class="widget_post_icon">
+                                    <img src="assets/icons/arrow_right.png" />
+                                </div>
+                                <div class="widget_post_content">
+                                    <div class="widget_post_texto">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                    </div>
+                                    <div class="widget_post_date">
+                                        6 years ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Últimos Tweets</div>
+                            <div class="widget_title_divider"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="widget_tweet">
+                                <div class="widget_tweet_icon">
+                                    <img src="assets/icons/arrow_right.png" />
+                                </div>
+                                <div class="widget_tweet_content">
+                                    <div class="widget_tweet_texto">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                    </div>
+                                    <div class="widget_tweet_date">
+                                        6 years ago
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="widget_tweet">
+                                <div class="widget_tweet_icon">
+                                    <img src="assets/icons/arrow_right.png" />
+                                </div>
+                                <div class="widget_tweet_content">
+                                    <div class="widget_tweet_texto">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                    </div>
+                                    <div class="widget_tweet_date">
+                                        6 years ago
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="widget_tweet">
+                                <div class="widget_tweet_icon">
+                                    <img src="assets/icons/arrow_right.png" />
+                                </div>
+                                <div class="widget_tweet_content">
+                                    <div class="widget_tweet_texto">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae leo eget lorem lobortis fringilla. 
+                                    </div>
+                                    <div class="widget_tweet_date">
+                                        6 years ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
